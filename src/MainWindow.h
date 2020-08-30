@@ -67,6 +67,7 @@ public:
 #endif
 	class ThrownTogetherRenderer *thrownTogetherRenderer;
 
+	QString custom_export_suffix;
 	QString last_compiled_doc;
 
 	QAction *actionRecentFile[UIUtils::maxRecentFiles];
