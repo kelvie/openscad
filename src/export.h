@@ -72,6 +72,7 @@ struct ExportFileFormatOptions {
 		{"nefdbg", FileFormat::NEFDBG},
 		{"nef3", FileFormat::NEF3},
 		{"csg", FileFormat::CSG},
+		{"scad", FileFormat::AST},
 		{"ast", FileFormat::AST},
 		{"term", FileFormat::TERM},
 		{"echo", FileFormat::ECHO},
