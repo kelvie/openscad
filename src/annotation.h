@@ -13,6 +13,7 @@ public:
 	
 	virtual void print(std::ostream &stream, const std::string &indent) const;
 	const std::string &getName() const;
+	std::string dump() const;
 	virtual class ValuePtr evaluate(std::shared_ptr<class Context> ctx) const;
 	
 private:
