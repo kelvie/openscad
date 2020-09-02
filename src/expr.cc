@@ -664,7 +664,7 @@ ValuePtr Let::evaluate(const std::shared_ptr<Context>& context) const
 
 void Let::print(std::ostream &stream, const std::string &) const
 {
-	stream << "let(" << this->arguments << ") " << *expr;
+  stream << "(let(" << this->arguments << ") " << *expr << ")";
 }
 
 ListComprehension::ListComprehension(const Location &loc) : Expression(loc)
